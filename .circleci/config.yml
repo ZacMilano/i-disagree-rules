@@ -36,3 +36,7 @@ workflows:
       - push-to-s3:
           context:
             - milano-personal-projects-context
+          filters:
+            branches:
+              only:
+                - main
