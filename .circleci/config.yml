@@ -36,6 +36,6 @@ jobs:
 workflows:
   say-hello-workflow:
     jobs:
-      - push-to-s3
+      - push-to-s3:
           context:
             - milano-personal-projects-context
